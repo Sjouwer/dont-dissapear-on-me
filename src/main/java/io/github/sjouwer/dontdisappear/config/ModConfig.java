@@ -8,8 +8,8 @@ import net.minecraft.client.MinecraftClient;
 @SuppressWarnings("FieldMayBeFinal")
 @Config(name = "dont_disappear")
 public class ModConfig implements ConfigData {
-    @ConfigEntry.Gui.Tooltip
-    private int blockEntityRenderDistance = 64;
+    @ConfigEntry.Gui.Tooltip(count = 2)
+    private int blockEntityRenderDistance = 128;
     @ConfigEntry.Gui.Tooltip(count = 3)
     private boolean lockBlockEntityToViewDistance = false;
 
