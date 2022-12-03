@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "dontdisappear",
+  "version": "${version}",
+
+  "name": "Don't Disappear on Me",
+  "description": "Adjust till how far Block-Entities will render",
+  "authors": [
+    "Sjouwer"
+  ],
+  "contact": {
+    "sources": "https://github.com/Sjouwer/dont-disappear",
+    "issues": "https://github.com/Sjouwer/dont-disappear/issues"
+  },
+
+  "license": "GNU LGPLv3",
+  "icon": "assets/dontdisappear/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.sjouwer.dontdisappear.DontDisappear"
+    ],
+    "modmenu": [
+      "io.github.sjouwer.dontdisappear.config.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "dontdisappear.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.14.x",
+    "fabricloader": ">=0.4.0",
+    "fabric": ">=0.14.0",
+    "cloth-config2": ">=1.0.0",
+    "autoconfig1u": ">=1.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "text.autoconfig.dont_disappear.title": "Don't Disappear on Me",
+
+    "text.autoconfig.dont_disappear.option.blockEntityRenderDistance": "Block-Entity Render Distance",
+    "text.autoconfig.dont_disappear.option.blockEntityRenderDistance.@Tooltip": "Render distance of block-entities in blocks",
+
+    "text.autoconfig.dont_disappear.option.lockBlockEntityToViewDistance": "Lock to View Distance",
+    "text.autoconfig.dont_disappear.option.lockBlockEntityToViewDistance.@Tooltip[0]": "Make the block-entity render distance",
+    "text.autoconfig.dont_disappear.option.lockBlockEntityToViewDistance.@Tooltip[1]": "the same as the view distance",
+    "text.autoconfig.dont_disappear.option.lockBlockEntityToViewDistance.@Tooltip[2]": "(Overrides the above option)"
+}
